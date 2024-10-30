@@ -94,10 +94,14 @@ body{
     filter: blur(5px);
 }
 
-.icon{
+.icon, .icon-ball{
     width: 50px;
     /* filter: drop-shadow(0px 1px 2px #f3f3f3);  */
 
+}
+
+.icon-ball{
+    rotate: -45deg;
 }
 
 .title-button{
